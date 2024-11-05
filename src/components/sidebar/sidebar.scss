@@ -1,0 +1,155 @@
+$font: "Avenir Next";
+$hoverColor: #213F7D;
+$sub-font: "Work Sans", sans-serif;
+
+
+body{
+    font-family: $font;
+  
+}
+
+.sidebar-container{ 
+    padding: 25px;
+
+    //box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sidebar-dashboard-home-title-container{
+    display: flex;
+}
+
+.sidebar-dashboard-title{
+    display: flex;
+    margin-bottom: 25px;
+
+}
+
+.sidebar-title-link{
+    margin-bottom:-20px ;
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.77px;
+    font-family: $sub-font;
+
+}
+
+.sidebar-title-dashboard{
+    color: grey;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.77px;
+    
+}
+
+.sidebar-title-dashboard-switch{
+    color: #213F7D;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 18.77px;
+    
+}
+
+.sidebar-dashboard-title-icon{
+    margin-right: 10px; 
+}
+
+.sidebar-dashboard-dropdown-icon{
+    margin-left: -5px; 
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.sidebar-dashboard-header{
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 14.08px;
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: $sub-font;
+
+}
+
+.sidebar-dashboard-title-container{
+    margin-top: 30px;
+}
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: -10px;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .mobile-menu-icon{
+    display: none;
+  }
+
+  
+.showSidebar{
+  display: flex;
+}
+
+
+  @media only screen and (max-width: 1100px){
+    .mobile-menu-icon{
+
+      display: flex;
+      background-color: transparent;
+      color: black;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
+  }
+  .sidebar-content-container{ 
+    display: none;
+  }
+
+  #howSidebar{
+    flex: 1;
+    background-color:#ed8013 ;
+    height: 200vh; 
+    padding: 20px 20px 40px;
+    top: 50px;
+    display: flex;
+  }
+
+  }
+

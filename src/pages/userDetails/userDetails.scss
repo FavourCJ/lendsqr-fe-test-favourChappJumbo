@@ -1,0 +1,290 @@
+$bg-color: #FBFBFB;
+
+body{
+    background-color: $bg-color;
+}
+
+.user-details-section{
+    display: flex;
+}
+
+.user-details-content{
+    flex: 4;
+    padding: 40px;
+}
+
+.user-details-head-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-details-head-txt{
+    font-family: "Work Sans" sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.15px;
+    color: #213F7D;
+
+}
+
+.user-details-head-button-section{
+   text-align: center;
+   margin-top: 40px;
+}
+
+.user-details-head-btn-blacklist{
+    color: #E4033B;
+    background-color: transparent;
+    border: 1px solid #E4033B;
+    width: 170px;
+    height: 40px;
+    top: 210px;
+    left: 1020px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    font-family: "Work Sans" sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.42px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.user-details-head-btn-activate{
+    color: #39CDCC;
+    background-color: transparent;
+    border: 1px solid #39CDCC;
+    width: 170px;
+    height: 40px;
+    top: 210px;
+    left: 1210px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    font-family: "Work Sans" sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.42px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin-left: 30px;
+    cursor: pointer;
+    
+}
+
+.back-link{
+    color: #545F7D;
+    font-family: "Work Sans" sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.77px;
+
+}
+
+.back-link{
+    text-decoration: none;
+}
+
+.back-link-img{
+    margin-right: 5px;
+}
+
+.user-details-header-container{
+    background-color: white;
+    padding: 10px;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 #213F7D0F,  0 3px 3px 0 rgb(202, 200, 200);
+}
+
+.user-details-header-top{
+    display: flex;
+}
+
+.user-details-header-pic-container{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    opacity: 0.16px;
+    background-color: #21407d3f;
+    text-align: center;
+}
+
+.user-details-header-img{
+    width: 40px;
+    height: 40px;
+    margin-top: 26px;
+
+}
+
+.user-details-header-pic-name-container{
+    display: flex;
+    margin-left: 30px;
+    border-right: 1px solid #545F7D;
+    padding-right: 40px;
+}
+
+.user-details-header-name-container{
+    margin-left: 20px;
+}
+
+.user-details-header-name{
+    font-family: "Work Sans" sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 25.81px;
+    color: #213F7D;
+
+}
+
+.user-details-header-ref{
+    font-family: "Work Sans" sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.42px;
+    color: #545F7D;
+    margin-top: -15px;
+
+}
+
+.user-details-header-tier-txt{
+    font-family: "Work Sans" sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.42px;
+    color: #545F7D;
+
+}
+
+.user-details-header-tier-container{
+    text-align: center;
+    border-right: 1px solid #213F7D;
+    padding: 20px;
+}
+
+.user-details-header-tier-txt{
+    margin-bottom: -12px;
+}
+
+.user-details-header-money{
+    font-family: "Work Sans" sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 25.81px;
+    color: #213F7D;
+
+}
+
+.user-details-header-money-bank{
+    font-family: "Work Sans" sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.08px;
+    color: #213F7D;
+    margin-top: -15px;
+}
+
+.user-details-header-money-container{
+    margin-left: 20px;
+}
+
+.user-details-header-tier-container{
+    margin-top: -7px;
+}
+
+.user-details-bottom-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.user-details-bottom-txt{
+    font-family: SF Compact Text sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.09px;
+    color: #000000CC;
+
+}
+
+.user-details-bottom-txt-gen{
+    font-family: SF Compact Text sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.09px;
+    color: #39CDCC;
+    text-decoration: underline;
+}
+
+.user-details-personal-info-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-details-personal-info-top-socials{
+    display: flex;
+}
+
+.user-details-personal-info-down{
+    display: flex;
+}
+
+.user-details-personaol-info-down-section{
+    margin-right: 80px;
+}
+
+.user-details-personal-info-header{
+    font-family: "Work Sans" sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.08px;
+    text-align: left;
+    color: #545F7D;
+    text-transform: uppercase;
+}
+
+.user-details-personal-info-txt{
+    font-family: "Work Sans" sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.77px;
+    color: #545F7D;
+    margin-top: -4px;
+
+}
+
+.user-details-personal-info-title{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.77px;
+    color: #213F7D;
+
+}
+
+.user-details-personal-info-container{
+    border-bottom: 1px solid #21407d7f;
+    margin-bottom: 50px;
+}
+
+.user-details-personaol-info-top-section-socials{
+    margin-right: 90px;
+}
+
+.user-staus-update{
+    color: white;
+    background-color: green;
+    padding: 10px;
+    width: 40%;
+}
+
+.not-updated{
+    color: white;
+    background-color: red;
+    padding: 10px;
+    width: 40%;
+}
+
+  
